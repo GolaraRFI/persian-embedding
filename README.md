@@ -1,5 +1,5 @@
 # Persian_Embedding
-In this project I train an Persian Embedding and test it.
+The goal of this project is to learn how to train and test an embedding model (not to achieve high accuracy in testing).
 
 According to the following parameters, we have trained 8 models with a given Persian corpus.
 
@@ -21,5 +21,7 @@ In this evaluation, to calculate the similarity of the vectors, I have calculate
   - Most_similar_cosmul_distance 
   
 You can download the Persian corpus from the following link:
+
 Train corpus: https://drive.google.com/file/d/1L1kAhb8NofQUJqLK05nj2YfPlynB_3m_/view?usp=sharing
+
 Test corpus: https://drive.google.com/file/d/1mgxcenW9D28AfYlYwXgN-r0P3XWGz46z/view?usp=sharing
