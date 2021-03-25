@@ -1,6 +1,11 @@
 # Persian_Embedding
 The goal of this project is to learn how to train and test an embedding model (not to achieve high accuracy in testing).
 
+Requires:
+
+  - pip install gensim==3.8.3
+  - pip install hazm
+
 According to the following parameters, we have trained 8 models with a given Persian corpus.
 
   - W2V1 = word2vec CBOW(D = 50, min_count = 20, Window Size = 5)
