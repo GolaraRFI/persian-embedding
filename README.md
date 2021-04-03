@@ -19,7 +19,9 @@ According to the following parameters, we have trained 8 models with a given Per
   - FT4 = FastText (D = 100, min_count = 20, sg= 0)
 
 For train the models, type:
-'python embedding_train.py'
+```python
+python embedding_train.py
+```
  
 ## Evaluation
 I evaluated all models using Analogy test.
@@ -31,7 +33,9 @@ In this evaluation, to calculate the similarity of the vectors, I have calculate
   - Most_similar_cosmul_distance 
 
 For test the models, type:
-'python embedding_test.py'
+```python
+python embedding_test.py
+```
 ***
 You can download the Persian corpus from the following link:
 
