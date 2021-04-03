@@ -1,11 +1,11 @@
 # Persian_Embedding
 The goal of this project is to learn how to train and test an embedding model (not to achieve high accuracy in testing).
-***
+
 ## Requirements
 
   - gensim==3.8.3
   - hazm
-***
+
 ## Training
 According to the following parameters, we have trained 8 models with a given Persian corpus.
 
@@ -20,7 +20,7 @@ According to the following parameters, we have trained 8 models with a given Per
 
 For train the models, type:
 'python embedding_train.py'
-*** 
+ 
 ## Evaluation
 I evaluated all models using Analogy test.
 In this evaluation, to calculate the similarity of the vectors, I have calculated the distance of the vectors using 4 methods. These 4 methods are as follows:
