@@ -1,11 +1,11 @@
 # Persian_Embedding
 The goal of this project is to learn how to train and test an embedding model (not to achieve high accuracy in testing).
-
-Requires:
+***
+## Requirements
 
   - pip install gensim==3.8.3
   - pip install hazm
-
+***
 According to the following parameters, we have trained 8 models with a given Persian corpus.
 
   - W2V1 = word2vec CBOW(D = 50, min_count = 20, Window Size = 5)
@@ -16,7 +16,7 @@ According to the following parameters, we have trained 8 models with a given Per
   - FT2 = FastText (D = 50, min_count = 20, sg= 0)
   - FT3 = FastText (D = 100, min_count = 20, sg= 1)
   - FT4 = FastText (D = 100, min_count = 20, sg= 0)
-  
+*** 
 I evaluated all models using Analogy test.
 In this evaluation, to calculate the similarity of the vectors, I have calculated the distance of the vectors using 4 methods. These 4 methods are as follows:
 
@@ -24,7 +24,7 @@ In this evaluation, to calculate the similarity of the vectors, I have calculate
   - Normalized_distance_by_vec
   - Most_similar_distance 
   - Most_similar_cosmul_distance 
-  
+***
 You can download the Persian corpus from the following link:
 
 Train corpus: https://drive.google.com/file/d/1L1kAhb8NofQUJqLK05nj2YfPlynB_3m_/view?usp=sharing
