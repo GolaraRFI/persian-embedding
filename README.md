@@ -1,4 +1,4 @@
-# Persian_Embedding
+# persian-embedding
 The goal of this project is to learn how to train and test an embedding model (not to achieve high accuracy in testing).
 
 ## Requirements
