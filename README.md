@@ -18,7 +18,7 @@ According to the following parameters, we have trained 8 models with a given Per
   - FT3 = FastText (D = 100, min_count = 20, sg= 1)
   - FT4 = FastText (D = 100, min_count = 20, sg= 0)
 
-For train the models, type:
+Train the models
 ```python
 python embedding_train.py
 ```
@@ -32,7 +32,7 @@ In this evaluation, to calculate the similarity of the vectors, I have calculate
   - Most_similar_distance 
   - Most_similar_cosmul_distance 
 
-For test the models, type:
+Test the models
 ```python
 python embedding_test.py
 ```
