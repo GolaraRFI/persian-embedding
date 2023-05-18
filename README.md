@@ -37,7 +37,7 @@ Test the models:
 python embedding_test.py
 ```
 ***
-You can download the Persian corpus from the following link:
+Data availability:
 
 Train corpus: https://drive.google.com/file/d/1L1kAhb8NofQUJqLK05nj2YfPlynB_3m_/view?usp=sharing
 
