@@ -33,6 +33,7 @@ I evaluated all models using the Analogy test. For vector similarity calculation
 - Normalized_distance_by_vec
 - Most_similar_distance
 - Most_similar_cosmul_distance
+  
 To test the models, run the following command:
 ```shell
 python embedding_test.py
